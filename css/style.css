@@ -63,7 +63,7 @@ h2{
 	background: rgb(33,32,32);
 	background: linear-gradient(180deg, rgba(33,32,32,0.9472163865546218) 49%, rgba(6,2,0,1) 100%);
 	padding-top: 4%;
-	padding-bottom: 4%;
+	padding-bottom: 2%;
 	justify-content: center;
 	gap: 2%;
 }
@@ -72,7 +72,31 @@ h2{
 	background: linear-gradient(61deg, rgba(194,15,15,0.9472163865546218) 49%, rgba(255,94,0,1) 100%);
 	border: none;
 	width: 100%;
+	transition: all 1s ease-in-out;
 }
+
+.btn-primary:hover{
+	transform: scale(1.1);
+	box-shadow: 13px 15px 37px black;
+	overflow: hidden;	
+	background: black;
+	color: white;
+}
+
+/* 03.1 y 04.1 BOTONERA */
+.botoncontainer{
+	display: flex;
+	flex-direction: row;
+	background: black;
+	padding-top: 1%;
+	padding-bottom: 4%;
+	padding-left: 20%;
+	padding-right: 20%;
+	justify-content: center;
+	gap: 2%;
+}
+
+
 
 /* 04 TARJETAS CAPACITACION */
 
@@ -102,6 +126,17 @@ h2{
 }
 
 /* 07 SEGUNDO LISTADO DE BROKERS */
+
+.botoncontainerblanco{
+	display: flex;
+	flex-direction: row;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 20%;
+	padding-right: 20%;
+	justify-content: center;
+	gap: 2%;
+}
 
 /* 08 SECCION A DEFINIR, PODRIAN SER REDES U OTRA COSA */
 
