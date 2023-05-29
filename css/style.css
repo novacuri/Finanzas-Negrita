@@ -1,0 +1,123 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Crimson Text", serif;
+	font-family: "Open Sans", sans-serif;
+	font-family: "Roboto", sans-serif;
+}
+/* 01 NAVBAR */
+.negro{
+	background-color: black;
+	
+}
+
+
+.navbar-brand{
+	background-color: black;
+}
+
+.container-fluid{
+	list-style-type: none;
+	background-color: black;
+	color: white;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+/* 02 BIENVENIDA */
+.bienvenida{
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	color: white;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 2%;
+	padding-right: 28%;
+}
+
+.img1{
+	position: absolute;
+	left: 80%;
+	top: 20%;
+	z-index: +1;
+}
+
+h1{
+font-size: 200%;
+font-weight: bold;
+}
+
+h2{
+	font-size: 120%;
+}
+
+/* 03 TARJETAS NOVEDADES */
+.cardcontainer{
+	display: flex;
+	flex-direction: row;
+	background: rgb(33,32,32);
+	background: linear-gradient(180deg, rgba(33,32,32,0.9472163865546218) 49%, rgba(6,2,0,1) 100%);
+	padding-top: 4%;
+	padding-bottom: 4%;
+	justify-content: center;
+	gap: 2%;
+}
+.btn-primary{
+	background: rgb(194,15,15);
+	background: linear-gradient(61deg, rgba(194,15,15,0.9472163865546218) 49%, rgba(255,94,0,1) 100%);
+	border: none;
+	width: 100%;
+}
+
+/* 04 TARJETAS CAPACITACION */
+
+
+/* 05 SEPARADOR BLANCO PARA SECCION DE EMPRESAS DE INVERSION */
+
+.titulobrokers{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	color: black;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	padding-left: 5%;
+	padding-right: 28%;
+}
+
+/* 06 LISTADO DE BROKERS */
+
+.containerbrokers{
+	display: flex;
+	flex-direction: row;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	justify-content: center;
+	gap: 2%;
+}
+
+/* 07 SEGUNDO LISTADO DE BROKERS */
+
+/* 08 SECCION A DEFINIR, PODRIAN SER REDES U OTRA COSA */
+
+/* 09 ACERCA DE NOSOTROS CON ACORDEON */
+
+.acordeoncontainer{
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 4%;
+	justify-content: center;
+}
+
+/* esta parte del codigo funciona bien, sin embargo cambia los colores antes de abrir al menu y no despues
+ */
+/* .accordion-button{
+	background-color: black;
+	color: white;
+} */
+
