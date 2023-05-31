@@ -161,10 +161,36 @@ h2{
 	padding-left: 20%;
 	padding-right: 20%;
 	justify-content: center;
-	gap: 2%;
+	gap: 2%;/* me da el espacion entre tarjetas */
 }
 
 /* 08 SECCION A DEFINIR, PODRIAN SER REDES U OTRA COSA */
+.bienvenida8{
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	justify-content: center;
+	color: white;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 20%;
+	padding-right: 28%;
+}
+/* 08.1 PRIMERA TANDA TARJETAS SIMPLES SECCION A DEFINIR */
+
+.monedas{
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+	padding-bottom: 2%;
+	justify-content: center;
+	gap: 1%; /* me da el espacion entre tarjetas */
+}
+.card-text{
+	text-align: center;
+	font-weight: bolder;
+}
+
 
 /* 09 ACERCA DE NOSOTROS CON ACORDEON */
 
