@@ -28,6 +28,9 @@
       name="keywords"
       content="Finanzas, Inversiones, Creditos, Ahorros, Savings,  "
     />
+<!-- link a javascript -->
+<script src="script.js"></script>
+
   </head>
   <body>
     <!-- 01 NAVBAR -->
@@ -214,8 +217,8 @@
       </h6>
     </div>
 
-    <div class="cardcontainer">
-      <div class="card" style="width: 18rem">
+    <div class="cardcontainer cards"> <!-- agrego clase cards para JS -->
+      <div class="card" style="width: 18rem"><!-- agrego clase cards para JS -->
         <img src="./img/10.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Titulo de la Novedad</h5>
@@ -223,7 +226,7 @@
           <a href="#" class="btn btn-primary">Ingresar</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem">
+      <div class="card " style="width: 18rem"> <!-- agrego clase cards para JS -->
         <img src="./img/10.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Titulo de la Novedad</h5>
@@ -231,7 +234,7 @@
           <a href="#" class="btn btn-primary">Ingresar</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem">
+      <div class="card " style="width: 18rem"><!-- agrego clase cards para JS -->
         <img src="./img/10.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Titulo de la Novedad</h5>
@@ -239,7 +242,7 @@
           <a href="#" class="btn btn-primary">Ingresar</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem">
+      <div class="card " style="width: 18rem"><!-- agrego clase cards para JS -->
         <img src="./img/10.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Titulo de la Novedad</h5>
@@ -248,13 +251,33 @@
         </div>
       </div>
       <!-- aca ponemos las restantes tarjetas -->
+      <div class="card " style="width: 18rem"><!-- agrego clase cards para JS -->
+        <img src="./img/10.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Titulo de la Novedad</h5>
+          <p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
+          <a href="#" class="btn btn-primary">Ingresar</a>
+        </div>
+      </div>
+      <div class="card " style="width: 18rem"><!-- agrego clase cards para JS -->
+        <img src="./img/10.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Titulo de la Novedad</h5>
+          <p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
+          <a href="#" class="btn btn-primary">Ingresar</a>
+        </div>
+      </div>
+
+
+
+
     </div>
 
     <!-- 03.1 BOTONERA -->
 
     <div class="botoncontainer">
-      <a href="#" class="btn btn-primary"> < Previo</a>
-      <a href="#" class="btn btn-primary">Siguiente ></a>
+      <a href="#" class="btn btn-primary prev"> < Previo</a> <!-- le agrego una clase para el JS -->
+      <a href="#" class="btn btn-primary next">Siguiente ></a><!-- le agrego una clase para el JS -->
 
       <!-- codigo off canva con seleccion -->
       <button
@@ -791,105 +814,57 @@
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseOne"
-              aria-expanded="true"
-              aria-controls="panelsStayOpen-collapseOne"
-            >
-              ADVERTENCIA DE RIESGO
-            </button>
-          </h2>
-          <div
-            id="panelsStayOpen-collapseOne"
-            class="accordion-collapse collapse show"
-          >
-            <div class="accordion-body">
-              <strong>Advertencia de riesgo.</strong> Al invertir y/o negociar
-              instrumentos financieros, materias primas y cualquier otro activo,
-              está asumiendo un alto grado de riesgo. Puede perder todo su
-              dinero depositado. Debe participar en cualquier actividad de este
-              tipo solo si es plenamente consciente de los riesgos relevantes.
-              En particular, los CFD y las Criptomonedas son instrumentos
-              complejos y están asociados a un riesgo elevado de perder dinero
-              rápidamente debido al apalancamiento. Entre un 67 y un 95 % de los
-              inversores minoristas pierden dinero cuando comercializan estos
-              instrumentos financieros. Debe considerar si comprende su
-              funcionamiento y si puede permitirse asumir un riesgo elevado de
-              perder su dinero. El contenido de esta web y los servicios que se
-              ofrecen no pretenden ser, no son y no pueden considerarse en
-              ningún caso, asesoramiento en materia de inversión ni de ningún
-              otro tipo de asesoramiento financiero, ni puede servir de base
-              para ningún contrato, compromiso o decisión de ningún tipo.
-              DESCARGO DE RESPONSABILIDAD: Se puede acceder a la información de
-              este sitio web en todo el mundo. Esta información y los productos
-              y servicios a los que se hace referencia en este sitio web están
-              destinados únicamente a destinatarios ubicados en jurisdicciones
-              donde el uso o acceso a este tipo de información, productos o
-              servicios no constituye una infracción de ninguna ley o
-              reglamento. Tenga en cuenta que todo el material y la información
-              puestos a disposición por Alexon Capital Ltd o cualquiera de sus
-              afiliados (como asinko.com) se proporcionan únicamente con fines
-              informativos. Ni Alexon Capital Ltd ni ninguna de sus afiliadas
-              está haciendo ninguna recomendación o solicitando ninguna acción
-              basada en el material y/o la información que se le proporcionó o
-              haciendo ninguna oferta, solicitud o recomendación para invertir
-              en/comerciar un instrumento financiero en particular, materia
-              prima o cualquier otro activo o emprender cualquier curso de
-              acción. Tenga en cuenta que todo el material y la información
-              puestos a disposición por Alexon Capital Ltd o cualquiera de sus
-              filiales se le proporciona con el entendimiento expreso de que no
-              constituye asesoramiento de inversión ni de ningún otro tipo y
-              usted determinará, buscando su propio asesoramiento independiente,
-              los riesgos y méritos económicos, así como las consecuencias
-              legales, fiscales y contables de tomar cualquier curso de acción,
-              adoptar cualquier estrategia de inversión, invertir y/o negociar
-              cualquier instrumento financiero, materia prima o cualquier otro
-              activo. Además, ni Alexon Capital Ltd ni ninguna de sus afiliadas
-              proporciona asesoramiento fiscal, contable o legal, por lo tanto,
-              si necesita asesoramiento en relación con dichos asuntos, debe
-              consultar a sus respectivos asesores fiscales, contables o
-              legales. Tenga en cuenta que todo el material y la información
-              puestos a disposición por Alexon Capital Ltd o cualquiera de sus
-              afiliadas se derivan de varias fuentes propietarias y no
-              propietarias consideradas confiables por Alexon Capital Ltd y/o
-              sus afiliadas. No son necesariamente completos y no se puede
-              garantizar su precisión. Además, la información y el análisis
-              contenidos en dichos materiales se basan en el juicio profesional
-              y pueden diferir de las conclusiones o análisis proporcionados por
-              otros profesionales calificados a los que se les pide que realicen
-              un análisis similar. Además, tenga en cuenta que todo el material
-              y la información puestos a disposición por Alexon Capital Ltd o
-              cualquiera de sus afiliados están sujetos a modificación, cambio o
-              complemento sin previo aviso. Ni Alexon Capital Ltd ni ninguna de
-              sus afiliadas acepta ninguna responsabilidad, deber de cuidado u
-              otra obligación que surja para usted o cualquier otro tercero en
-              relación con cualquier material y/o información disponible por
-              Alexon Capital Ltd o cualquiera de sus afiliadas. Sin embargo,
-              nada en este descargo de responsabilidad excluye o restringe
-              cualquier responsabilidad u obligación que Alexon Capital Ltd o
-              cualquiera de sus afiliadas pueda tener bajo la ley o regulación
-              aplicable, que no pueda ser excluida. DIVULGACION DEL ANUNCIANTE:
-              El sitio asinko.com es de uso gratuito para todos, pero este gana
-              una comisión de algunos de las firmas que se exponen, aunque este
-              no genera costos adicionales para los usuarios finales (como
-              usted). Sin embargo, tenga en cuenta que todo el material y la
-              información puestos a disposición por Alexon Capital Ltd o
-              cualquiera de sus afiliados se basan en nuestra metodología
-              profesional, que es imparcial, preparada de acuerdo con el mejor
-              interés de nuestros clientes y, lo que es más importante,
-              independiente de la remuneración que cobramos con algunos de
-              nuestros socios. .
-            </div>
+      </div>
+    </div>
+
+
+
+<!-- ultimo titulo del acordeon: -->
+
+    <div class="accordion acordeoncontainer" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            ADVERTENCIA DE RIESGO
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Advertencia de Riesgo</strong>               puestos a disposición por Alexon Capital Ltd o cualquiera de sus
+            afiliadas se derivan de varias fuentes propietarias y no
+            propietarias consideradas confiables por Alexon Capital Ltd y/o
+            sus afiliadas. No son necesariamente completos y no se puede
+            garantizar su precisión. Además, la información y el análisis
+            contenidos en dichos materiales se basan en el juicio profesional
+            y pueden diferir de las conclusiones o análisis proporcionados por
+            otros profesionales calificados a los que se les pide que realicen
+            un análisis similar. Además, tenga en cuenta que todo el material
+            y la información puestos a disposición por Alexon Capital Ltd o
+            cualquiera de sus afiliados están sujetos a modificación, cambio o
+            complemento sin previo aviso. Ni Alexon Capital Ltd ni ninguna de
+            sus afiliadas acepta ninguna responsabilidad, deber de cuidado u
+            otra obligación que surja para usted o cualquier otro tercero en
+            relación con cualquier material y/o información disponible por
+            Alexon Capital Ltd o cualquiera de sus afiliadas. Sin embargo,
+            nada en este descargo de responsabilidad excluye o restringe
+            cualquier responsabilidad u obligación que Alexon Capital Ltd o
+            cualquiera de sus afiliadas pueda tener bajo la ley o regulación
+            aplicable, que no pueda ser excluida. DIVULGACION DEL ANUNCIANTE:
+            El sitio asinko.com es de uso gratuito para todos, pero este gana
+            una comisión de algunos de las firmas que se exponen, aunque este
+            no genera costos adicionales para los usuarios finales (como
+            usted). Sin embargo, tenga en cuenta que todo el material y la
+            información puestos a disposición por Alexon Capital Ltd o
+            cualquiera de sus afiliados se basan en nuestra metodología
+            profesional, que es imparcial, preparada de acuerdo con el mejor
+            interés de nuestros clientes y, lo que es más importante,
+            independiente de la remuneración que cobramos con algunos de
+            nuestros socios.
           </div>
         </div>
       </div>
     </div>
-
+    
     <!-- SCRIPT DE BOOTSTRAP -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
