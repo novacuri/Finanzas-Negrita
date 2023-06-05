@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     let scrollAmount = 0;
     let touchStartX = 0;
   
-    prevButton.addEventListener('click', function() {
+    prevButton.addEventListener('click', function(e) {
+      e.preventDefault();
       cardsContainer.scrollTo({
         top: 0,
         left: (scrollAmount -= 300),
@@ -17,7 +18,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
       }
     });
   
-    nextButton.addEventListener('click', function() {
+    nextButton.addEventListener('click', function(e) {
+      e.preventDefault();
       if (scrollAmount <= cardsContainer.scrollWidth - cardsContainer.clientWidth) {
         cardsContainer.scrollTo({
           top: 0,
