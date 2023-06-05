@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function (event) {
-	const recomendacionesContainer = document.querySelector(".recomendaciones");
+	const recomendacionesContainer = document.querySelector(".recomendCards");
 	const recomendPrevButton = document.querySelector(".recomendPrev");
 	const recomendNextButton = document.querySelector(".recomendNext");
 	let recomendScrollAmount = 0;
