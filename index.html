@@ -1,912 +1,971 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Investment World</title>
-    <link rel="shortcut icon" href="./img/logo.png" />
-    <!-- cambiar el logo -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Open+Sans:wght@300;400&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <!-- fonts -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
-      crossorigin="anonymous"
-    />
-    <!-- boostrap -->
-    <link rel="stylesheet" href="css/style.css" />
-    <meta
-      name="descripcion"
-      content="Todo lo que necesitas ver para estar informado acerca de lo ultimo en Inversiones"
-    />
-    <meta
-      name="keywords"
-      content="Finanzas, Inversiones, Creditos, Ahorros, Savings,  "
-    />
-<!-- link a javascript -->
-<script src="script.js"></script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Investment World</title>
+		<link rel="shortcut icon" href="./img/logo.png" />
+		<!-- cambiar el logo -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Open+Sans:wght@300;400&family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- fonts -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+			crossorigin="anonymous"
+		/>
+		<!-- boostrap -->
+		<!-- SCRIPT DE BOOTSTRAP -->
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="/css/styles.css" />
+		<meta
+			name="descripcion"
+			content="Todo lo que necesitas ver para estar informado acerca de lo ultimo en Inversiones"
+		/>
+		<meta
+			name="keywords"
+			content="Finanzas, Inversiones, Creditos, Ahorros, Savings,  "
+		/>
+		<!-- link a javascript -->
+		<script defer src="/js/index.js"></script>
+	</head>
+	<body>
+		<!-- 01 NAVBAR -->
 
-  </head>
-  <body>
-    <!-- 01 NAVBAR -->
+		<!-- 01.2 TITULOS NAVBAR -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html"
+					><img class="imgNavbarBrand" src="./img/9.jpg" alt="Imagen Logo"
+				/></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Sobre Nosotros
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Shares</a></li>
+								<li><a class="dropdown-item" href="#">ETFs</a></li>
+								<!-- <li><hr class="dropdown-divider" /></li> -->
+								<li>
+									<a class="dropdown-item" href="#">Acciones</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Novedades
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Shares</a></li>
+								<li><a class="dropdown-item" href="#">ETFs</a></li>
+								<!-- <li><hr class="dropdown-divider" /></li> -->
+								<li>
+									<a class="dropdown-item" href="#">Acciones</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Inversiones
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Shares</a></li>
+								<li><a class="dropdown-item" href="#">ETFs</a></li>
+								<!-- <li><hr class="dropdown-divider" /></li> -->
+								<li>
+									<a class="dropdown-item" href="#">Acciones</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Capacitación
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Shares</a></li>
+								<li><a class="dropdown-item" href="#">ETFs</a></li>
+								<!-- <li><hr class="dropdown-divider" /></li> -->
+								<li>
+									<a class="dropdown-item" href="#">Acciones</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Suscripciones
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Shares</a></li>
+								<li><a class="dropdown-item" href="#">ETFs</a></li>
+								<!-- <li><hr class="dropdown-divider" /></li> -->
+								<li>
+									<a class="dropdown-item" href="#">Acciones</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								English (EN)
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Shares</a></li>
+								<li><a class="dropdown-item" href="#">ETFs</a></li>
+								<!-- <li><hr class="dropdown-divider" /></li> -->
+								<li>
+									<a class="dropdown-item" href="#">Acciones</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input
+							class="form-control me-2"
+							type="search"
+							placeholder="Buscar..."
+							aria-label="Search"
+						/>
+						<button class="btn btn-outline-success" type="submit">
+							Buscar
+						</button>
+					</form>
+				</div>
+			</div>
+		</nav>
 
-    <!-- 01.2 TITULOS NAVBAR -->
-    <div class="negro">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <nav class="navbar bg-body-tertiary">
-          <div class="cont">
-            <a class="navbar-brand" href="#">
-              <img
-                src="./img/9.jpg"
-                alt="Imagen Logo"
-                width="120"
-                height="81"
-              />
-              <!-- cambiar el logo -->
-            </a>
-          </div>
-        </nav>
+		<!--   01.1 RECOMENDACIONES -->
+		<div class="recomendaciones">
+			<div class="recomendCards">
+				<div class="recomendCard">Novedades del dia</div>
+				<div class="recomendCard">Promocion del dia</div>
+				<div class="recomendCard">Nota importante</div>
+				<div class="recomendCard">Cosa importante</div>
+				<div class="recomendCard">Otra importante</div>
+				<div class="recomendCard">Importantisima</div>
+			</div>
+		</div>
+		<button class="recomendPrev">&lt;</button>
+		<button class="recomendNext">&gt;</button>
 
-        <div class="container-fluid">
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Sobre Nosotros
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Shares</a></li>
-              <li><a class="dropdown-item" href="#">ETF</a></li>
-              <li><a class="dropdown-item" href="#">Todos</a></li>
-            </ul>
-          </li>
-        </div>
-        <div class="container-fluid">
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Novedades
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Shares</a></li>
-              <li><a class="dropdown-item" href="#">ETF</a></li>
-              <li><a class="dropdown-item" href="#">Todos</a></li>
-            </ul>
-          </li>
-        </div>
-        <div class="container-fluid">
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Inversiones
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Shares</a></li>
-              <li><a class="dropdown-item" href="#">ETF</a></li>
-              <li><a class="dropdown-item" href="#">Todos</a></li>
-            </ul>
-          </li>
-        </div>
-        <div class="container-fluid">
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Capacitacion
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Shares</a></li>
-              <li><a class="dropdown-item" href="#">ETF</a></li>
-              <li><a class="dropdown-item" href="#">Todos</a></li>
-            </ul>
-          </li>
-        </div>
-        <div class="container-fluid">
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Suscripciones
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Shares</a></li>
-              <li><a class="dropdown-item" href="#">ETF</a></li>
-              <li><a class="dropdown-item" href="#">Todos</a></li>
-            </ul>
-          </li>
-        </div>
-        <div class="container-fluid">
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              English (EN)
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Español</a></li>
-              <li><a class="dropdown-item" href="#">Polaco</a></li>
-              <li><a class="dropdown-item" href="#">Finlandes</a></li>
-            </ul>
-          </li>
-        </div>
-      </nav>
-    </div>
+		<!-- 02 BIENVENIDA -->
+		<div class="bienvenida">
+			<div class="textoBienvenida">
+				<h1>
+					Welcome to the Future of the Investments, a place where you will find
+					your next secure investment
+				</h1>
+				<p></p>
+				<!-- solo por el espacio -->
+				<h2>
+					Somos un sitio Gratis dedicado a información y educación financiera
+					aplicando instrumentos de última generación. Aquí encontrarás las
+					respuestas a tus preguntas sobre inversión de la mano de expertos,
+					pero en un lenguaje accesible.
+				</h2>
+				<p></p>
+				<h2>
+					Ademas, Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+					ipsa sunt enim quas sit ipsam unde aliquam nihil aperiam facere
+					expedita cum reiciendis harum reprehenderit earum, dolorem repellendus
+					ea! Fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Magni unde, ut minus quae eum culpa tenetur earum cum deleniti
+					assumenda maiores nobis dicta doloremque quos. Enim fugit a possimus
+					placeat?
+				</h2>
+			</div>
+			<img
+				src="./img/9.jpg"
+				alt="Imagen Corporativa"
+				class="img1"
+				width="400"
+				height="350"
+			/>
+		</div>
 
-    <!--   01.1 RECOMENDACIONES -->
-    <div class="recomendaciones">
-      <p>Novedades del dia</p>
-      <p>Promocion del dia</p>
-      <p>Nota importante</p>
-      <p>Cosa importante</p>
-      <p>Otra importante</p>
-      <p>Importantisima</p>
-    </div>
+		<!-- 03 TARJETAS NOVEDADES -->
+		<div class="titulonovedades">
+			<h1>Descubri Nuestras Novedades</h1>
+			<p></p>
+			<h6>
+				Tenemos las mejores novedades. Ademas Lorem ipsum dolor, sit amet
+				consectetur adipisicing elit. Et excepturi culpa numquam beatae dolore
+				commodi. Minus, labore? Fugiat totam eius voluptatibus? Cupiditate
+				praesentium ducimus neque aliquam ex id, laborum adipisci?
+			</h6>
+		</div>
 
-    <!-- 02 BIENVENIDA -->
-    <div class="bienvenida">
-      <h1>
-        Welcome to the Future of the Investments, a place where you will find
-        your next secure investment
-      </h1>
-      <p></p>
-      <!-- solo por el espacio -->
-      <h2>
-        Somos un sitio Gratis dedicado a información y educación financiera
-        aplicando instrumentos de última generación. Aquí encontrarás las
-        respuestas a tus preguntas sobre inversión de la mano de expertos, pero
-        en un lenguaje accesible.
-      </h2>
-      <p></p>
-      <h2>
-        Ademas, Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-        ipsa sunt enim quas sit ipsam unde aliquam nihil aperiam facere expedita
-        cum reiciendis harum reprehenderit earum, dolorem repellendus ea!
-        Fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-        unde, ut minus quae eum culpa tenetur earum cum deleniti assumenda
-        maiores nobis dicta doloremque quos. Enim fugit a possimus placeat?
-      </h2>
-      <img
-        src="./img/9.jpg"
-        alt="Imagen Corporativa"
-        class="img1"
-        width="400"
-        height="350"
-      />
-    </div>
+		<div class="cardcontainer">
+			<!-- agrego clase cards para JS -->
+			<div class="cards">
+				<div class="card">
+					<!-- agrego clase cards para JS -->
+					<img src="./img/10.jpg" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h5 class="card-title">Titulo de la Novedad 1</h5>
+						<p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
+						<a href="#" class="btn btn-primary">Ingresar</a>
+					</div>
+				</div>
+				<div class="card">
+					<!-- agrego clase cards para JS -->
+					<img src="./img/10.jpg" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h5 class="card-title">Titulo de la Novedad 2</h5>
+						<p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
+						<a href="#" class="btn btn-primary">Ingresar</a>
+					</div>
+				</div>
+				<div class="card">
+					<!-- agrego clase cards para JS -->
+					<img src="./img/10.jpg" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h5 class="card-title">Titulo de la Novedad 3</h5>
+						<p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
+						<a href="#" class="btn btn-primary">Ingresar</a>
+					</div>
+				</div>
+				<div class="card">
+					<!-- agrego clase cards para JS -->
+					<img src="./img/10.jpg" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h5 class="card-title">Titulo de la Novedad 4</h5>
+						<p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
+						<a href="#" class="btn btn-primary">Ingresar</a>
+					</div>
+				</div>
+				<!-- aca ponemos las restantes tarjetas -->
+				<div class="card">
+					<!-- agrego clase cards para JS -->
+					<img src="./img/10.jpg" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h5 class="card-title">Titulo de la Novedad 5</h5>
+						<p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
+						<a href="#" class="btn btn-primary">Ingresar</a>
+					</div>
+				</div>
+				<div class="card">
+					<!-- agrego clase cards para JS -->
+					<img src="./img/10.jpg" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h5 class="card-title">Titulo de la Novedad 6</h5>
+						<p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
+						<a href="#" class="btn btn-primary">Ingresar</a>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <!-- 03 TARJETAS NOVEDADES -->
-    <div class="titulonovedades">
-      <h1>Descubri Nuestras Novedades</h1>
-      <p></p>
-      <h6>
-        Tenemos las mejores novedades. Ademas Lorem ipsum dolor, sit amet
-        consectetur adipisicing elit. Et excepturi culpa numquam beatae dolore
-        commodi. Minus, labore? Fugiat totam eius voluptatibus? Cupiditate
-        praesentium ducimus neque aliquam ex id, laborum adipisci?
-      </h6>
-    </div>
+		<!-- 03.1 BOTONERA -->
 
-    <div class="cardcontainer cards"> <!-- agrego clase cards para JS -->
-      <div class="card" style="width: 18rem"><!-- agrego clase cards para JS -->
-        <img src="./img/10.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Titulo de la Novedad</h5>
-          <p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
-          <a href="#" class="btn btn-primary">Ingresar</a>
-        </div>
-      </div>
-      <div class="card " style="width: 18rem"> <!-- agrego clase cards para JS -->
-        <img src="./img/10.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Titulo de la Novedad</h5>
-          <p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
-          <a href="#" class="btn btn-primary">Ingresar</a>
-        </div>
-      </div>
-      <div class="card " style="width: 18rem"><!-- agrego clase cards para JS -->
-        <img src="./img/10.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Titulo de la Novedad</h5>
-          <p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
-          <a href="#" class="btn btn-primary">Ingresar</a>
-        </div>
-      </div>
-      <div class="card " style="width: 18rem"><!-- agrego clase cards para JS -->
-        <img src="./img/10.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Titulo de la Novedad</h5>
-          <p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
-          <a href="#" class="btn btn-primary">Ingresar</a>
-        </div>
-      </div>
-      <!-- aca ponemos las restantes tarjetas -->
-      <div class="card " style="width: 18rem"><!-- agrego clase cards para JS -->
-        <img src="./img/10.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Titulo de la Novedad</h5>
-          <p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
-          <a href="#" class="btn btn-primary">Ingresar</a>
-        </div>
-      </div>
-      <div class="card " style="width: 18rem"><!-- agrego clase cards para JS -->
-        <img src="./img/10.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Titulo de la Novedad</h5>
-          <p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
-          <a href="#" class="btn btn-primary">Ingresar</a>
-        </div>
-      </div>
+		<div class="botoncontainer">
+			<a href="#" class="btn btn-primary prev"> < Previo</a>
+			<!-- le agrego una clase para el JS -->
+			<a href="#" class="btn btn-primary next">Siguiente ></a
+			><!-- le agrego una clase para el JS -->
 
+			<!-- codigo off canva con seleccion -->
+			<button
+				class="btn btn-primary"
+				type="button"
+				data-bs-toggle="offcanvas"
+				data-bs-target="#offcanvasWithBothOptions"
+				aria-controls="offcanvasWithBothOptions"
+			>
+				Seleccion /top 10
+			</button>
 
+			<div
+				class="offcanvas offcanvas-start"
+				data-bs-scroll="true"
+				tabindex="-1"
+				id="offcanvasWithBothOptions"
+				aria-labelledby="offcanvasWithBothOptionsLabel"
+			>
+				<div class="offcanvas-header">
+					<h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+						En esta seccion encontraras el listado de Capacitaciones (o bien de
+						traders) que no podes dejar de conocer
+					</h5>
+					<button
+						type="button"
+						class="btn-close"
+						data-bs-dismiss="offcanvas"
+						aria-label="Close"
+					></button>
+				</div>
+				<div class="offcanvas-body">
+					<p>PERFIL DE INVERSOR MODERADO</p>
+					<p>PERFIL DE INVERSOR ARRIESGADO</p>
+					<p>CÓMO IDENTIFICAR TU PERFIL DE INVERSIÓN</p>
+					<p>PERFIL DE INVERSOR CONSERVADOR</p>
+					<p>METACOIN: WANDA NARA Y LAS CRIPTOS</p>
+					<p>BROKERS ECN: TRADING A TU FAVOR</p>
+					<p>GUÍA DE INDICADORES TÉCNICOS EN MT4</p>
+					<p>LA FED SUBE LAS TASAS</p>
+					<p>XXX</p>
+					<p>YYY</p>
+					<p>ZZZ</p>
+					<p>.</p>
+					<p>
+						SI LA LISTA ES LARGA APARECEN LA BARRA DE DESPLAZAMIENTO VERTICAL
+						ASI QUE ES NAVEGABLE
+					</p>
+				</div>
+			</div>
 
+			<!-- boton todos -->
+			<a href="#" class="btn btn-primary">TODOS</a>
+		</div>
 
-    </div>
+		<!-- 04 TARJETAS CAPACITACION -->
+		<div class="titulonovedades">
+			<h1>Aqui encontraras Nuestras Capacitaciones</h1>
+			<p></p>
+			<h6>
+				Tenemos las mejores Capacitaciones, todo lo que queres saber. Ademas
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et excepturi
+				culpa numquam beatae dolore commodi. Minus, labore? Fugiat totam eius
+				voluptatibus? Cupiditate praesentium ducimus neque aliquam ex id,
+				laborum adipisci?
+			</h6>
+		</div>
 
-    <!-- 03.1 BOTONERA -->
+		<div class="cardcontainer">
+			<div class="card" style="width: 18rem">
+				<img src="./img/5.jpg" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Titulo de la capacitacion</h5>
+					<p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
+					<a href="#" class="btn btn-primary">Ingresar</a>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem">
+				<img src="./img/5.jpg" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Titulo de la capacitacion</h5>
+					<p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
+					<a href="#" class="btn btn-primary">Ingresar</a>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem">
+				<img src="./img/5.jpg" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Titulo de la capacitacion</h5>
+					<p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
+					<a href="#" class="btn btn-primary">Ingresar</a>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem">
+				<img src="./img/5.jpg" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Titulo de la capacitacion</h5>
+					<p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
+					<a href="#" class="btn btn-primary">Ingresar</a>
+				</div>
+			</div>
+			<!-- aca ponemos las restantes tarjetas -->
+		</div>
 
-    <div class="botoncontainer">
-      <a href="#" class="btn btn-primary prev"> < Previo</a> <!-- le agrego una clase para el JS -->
-      <a href="#" class="btn btn-primary next">Siguiente ></a><!-- le agrego una clase para el JS -->
+		<!-- 04.1 BOTONERA -->
 
-      <!-- codigo off canva con seleccion -->
-      <button
-        class="btn btn-primary"
-        type="button"
-        data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasWithBothOptions"
-        aria-controls="offcanvasWithBothOptions"
-      >
-        Seleccion /top 10
-      </button>
+		<div class="botoncontainer">
+			<a href="#" class="btn btn-primary"> < Previo</a>
+			<a href="#" class="btn btn-primary">Siguiente ></a>
 
-      <div
-        class="offcanvas offcanvas-start"
-        data-bs-scroll="true"
-        tabindex="-1"
-        id="offcanvasWithBothOptions"
-        aria-labelledby="offcanvasWithBothOptionsLabel"
-      >
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
-            En esta seccion encontraras el listado de Capacitaciones (o bien de
-            traders) que no podes dejar de conocer
-          </h5>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="offcanvas-body">
-          <p>PERFIL DE INVERSOR MODERADO</p>
-          <p>PERFIL DE INVERSOR ARRIESGADO</p>
-          <p>CÓMO IDENTIFICAR TU PERFIL DE INVERSIÓN</p>
-          <p>PERFIL DE INVERSOR CONSERVADOR</p>
-          <p>METACOIN: WANDA NARA Y LAS CRIPTOS</p>
-          <p>BROKERS ECN: TRADING A TU FAVOR</p>
-          <p>GUÍA DE INDICADORES TÉCNICOS EN MT4</p>
-          <p>LA FED SUBE LAS TASAS</p>
-          <p>XXX</p>
-          <p>YYY</p>
-          <p>ZZZ</p>
-          <p>.</p>
-          <p>
-            SI LA LISTA ES LARGA APARECEN LA BARRA DE DESPLAZAMIENTO VERTICAL
-            ASI QUE ES NAVEGABLE
-          </p>
-        </div>
-      </div>
+			<!-- codigo off canva con seleccion -->
+			<button
+				class="btn btn-primary"
+				type="button"
+				data-bs-toggle="offcanvas"
+				data-bs-target="#offcanvasWithBothOptions"
+				aria-controls="offcanvasWithBothOptions"
+			>
+				Seleccion /top 10
+			</button>
 
-      <!-- boton todos -->
-      <a href="#" class="btn btn-primary">TODOS</a>
-    </div>
+			<div
+				class="offcanvas offcanvas-start"
+				data-bs-scroll="true"
+				tabindex="-1"
+				id="offcanvasWithBothOptions"
+				aria-labelledby="offcanvasWithBothOptionsLabel"
+			>
+				<div class="offcanvas-header">
+					<h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+						En esta seccion encontraras el listado de Capacitaciones (o bien de
+						traders) que no podes dejar de conocer
+					</h5>
+					<button
+						type="button"
+						class="btn-close"
+						data-bs-dismiss="offcanvas"
+						aria-label="Close"
+					></button>
+				</div>
+				<div class="offcanvas-body">
+					<p>PERFIL DE INVERSOR MODERADO</p>
+					<p>PERFIL DE INVERSOR ARRIESGADO</p>
+					<p>CÓMO IDENTIFICAR TU PERFIL DE INVERSIÓN</p>
+					<p>PERFIL DE INVERSOR CONSERVADOR</p>
+					<p>METACOIN: WANDA NARA Y LAS CRIPTOS</p>
+					<p>BROKERS ECN: TRADING A TU FAVOR</p>
+					<p>GUÍA DE INDICADORES TÉCNICOS EN MT4</p>
+					<p>LA FED SUBE LAS TASAS</p>
+					<p>XXX</p>
+					<p>YYY</p>
+					<p>ZZZ</p>
+					<p>.</p>
+					<p>
+						SI LA LISTA ES LARGA APARECEN LA BARRA DE DESPLAZAMIENTO VERTICAL
+						ASI QUE ES NAVEGABLE
+					</p>
+				</div>
+			</div>
 
-    <!-- 04 TARJETAS CAPACITACION -->
-    <div class="titulonovedades">
-      <h1>Aqui encontraras Nuestras Capacitaciones</h1>
-      <p></p>
-      <h6>
-        Tenemos las mejores Capacitaciones, todo lo que queres saber. Ademas
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et excepturi
-        culpa numquam beatae dolore commodi. Minus, labore? Fugiat totam eius
-        voluptatibus? Cupiditate praesentium ducimus neque aliquam ex id,
-        laborum adipisci?
-      </h6>
-    </div>
+			<!-- boton todos -->
+			<a href="#" class="btn btn-primary">TODOS</a>
+		</div>
 
-    <div class="cardcontainer">
-      <div class="card" style="width: 18rem">
-        <img src="./img/5.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Titulo de la capacitacion</h5>
-          <p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
-          <a href="#" class="btn btn-primary">Ingresar</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img src="./img/5.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Titulo de la capacitacion</h5>
-          <p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
-          <a href="#" class="btn btn-primary">Ingresar</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img src="./img/5.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Titulo de la capacitacion</h5>
-          <p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
-          <a href="#" class="btn btn-primary">Ingresar</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img src="./img/5.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Titulo de la capacitacion</h5>
-          <p class="card-text">Subtitulo, comentarios, detalle, etc etc</p>
-          <a href="#" class="btn btn-primary">Ingresar</a>
-        </div>
-      </div>
-      <!-- aca ponemos las restantes tarjetas -->
-    </div>
+		<!-- 05 SEPARADOR BLANCO PARA SECCION DE EMPRESAS DE INVERSION -->
+		<div class="titulobrokers">
+			<h1>Inverti seguro ingresando a los mejores brokers</h1>
+			<p></p>
+			<!-- solo por el espacio -->
+			<h6>
+				Trabajamos con los mejores brokers del mundo para garantizar bla, bla,
+				bla y etcs.
+			</h6>
+			<h6>Otra linea mas de bla bla y etc</h6>
+		</div>
 
-    <!-- 04.1 BOTONERA -->
+		<!-- 06 LISTADO DE BROKERS -->
 
-    <div class="botoncontainer">
-      <a href="#" class="btn btn-primary"> < Previo</a>
-      <a href="#" class="btn btn-primary">Siguiente ></a>
+		<div class="containerbrokers">
+			<div class="card mb-3" style="max-width: 540px">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="./img/6.jpg" class="img-fluid rounded-start" alt="..." />
+					</div>
+					<div class="col-md-8">
+						<div class="card-body">
+							<h5 class="card-title">Etoro</h5>
+							<p class="card-text">Especialistas en xxx yyy</p>
+							<p class="card-text">
+								<small class="text-body-secondary"
+									>Algo chiquito borramos?</small
+								>
+							</p>
+							<a href="#" class="btn btn-primary">Ingresar</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-3" style="max-width: 540px">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="./img/7.jpg" class="img-fluid rounded-start" alt="..." />
+					</div>
+					<div class="col-md-8">
+						<div class="card-body">
+							<h5 class="card-title">IC Markets</h5>
+							<p class="card-text">Especialistas en xxx yyy</p>
+							<p class="card-text">
+								<small class="text-body-secondary"
+									>Algo chiquito borramos?</small
+								>
+							</p>
+							<a href="#" class="btn btn-primary">Ingresar</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-3" style="max-width: 540px">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="./img/8.jpg" class="img-fluid rounded-start" alt="..." />
+					</div>
+					<div class="col-md-8">
+						<div class="card-body">
+							<h5 class="card-title">Exness group</h5>
+							<p class="card-text">Especialistas en xxx yyy</p>
+							<p class="card-text">
+								<small class="text-body-secondary"
+									>Algo chiquito borramos?</small
+								>
+							</p>
+							<a href="#" class="btn btn-primary">Ingresar</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 07 SEGUNDO LISTADO DE BROKERS -->
+		<div class="containerbrokers">
+			<div class="card mb-3" style="max-width: 540px">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="./img/8.jpg" class="img-fluid rounded-start" alt="..." />
+					</div>
+					<div class="col-md-8">
+						<div class="card-body">
+							<h5 class="card-title">Exness group</h5>
+							<p class="card-text">Especialistas en xxx yyy</p>
+							<p class="card-text">
+								<small class="text-body-secondary"
+									>Algo chiquito borramos?</small
+								>
+							</p>
+							<a href="#" class="btn btn-primary">Ingresar</a>
+						</div>
+					</div>
+				</div>
+			</div>
 
-      <!-- codigo off canva con seleccion -->
-      <button
-        class="btn btn-primary"
-        type="button"
-        data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasWithBothOptions"
-        aria-controls="offcanvasWithBothOptions"
-      >
-        Seleccion /top 10
-      </button>
+			<div class="card mb-3" style="max-width: 540px">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="./img/6.jpg" class="img-fluid rounded-start" alt="..." />
+					</div>
+					<div class="col-md-8">
+						<div class="card-body">
+							<h5 class="card-title">Etoro</h5>
+							<p class="card-text">Especialistas en xxx yyy</p>
+							<p class="card-text">
+								<small class="text-body-secondary"
+									>Algo chiquito borramos?</small
+								>
+							</p>
+							<a href="#" class="btn btn-primary">Ingresar</a>
+						</div>
+					</div>
+				</div>
+			</div>
 
-      <div
-        class="offcanvas offcanvas-start"
-        data-bs-scroll="true"
-        tabindex="-1"
-        id="offcanvasWithBothOptions"
-        aria-labelledby="offcanvasWithBothOptionsLabel"
-      >
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
-            En esta seccion encontraras el listado de Capacitaciones (o bien de
-            traders) que no podes dejar de conocer
-          </h5>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="offcanvas-body">
-          <p>PERFIL DE INVERSOR MODERADO</p>
-          <p>PERFIL DE INVERSOR ARRIESGADO</p>
-          <p>CÓMO IDENTIFICAR TU PERFIL DE INVERSIÓN</p>
-          <p>PERFIL DE INVERSOR CONSERVADOR</p>
-          <p>METACOIN: WANDA NARA Y LAS CRIPTOS</p>
-          <p>BROKERS ECN: TRADING A TU FAVOR</p>
-          <p>GUÍA DE INDICADORES TÉCNICOS EN MT4</p>
-          <p>LA FED SUBE LAS TASAS</p>
-          <p>XXX</p>
-          <p>YYY</p>
-          <p>ZZZ</p>
-          <p>.</p>
-          <p>
-            SI LA LISTA ES LARGA APARECEN LA BARRA DE DESPLAZAMIENTO VERTICAL
-            ASI QUE ES NAVEGABLE
-          </p>
-        </div>
-      </div>
+			<div class="card mb-3" style="max-width: 540px">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img
+							src="./img/7.jpg"
+							class="img-fluid rounded-start"
+							alt="..."
+							width="170%"
+							height="70"
+						/>
+					</div>
+					<div class="col-md-8">
+						<div class="card-body">
+							<h5 class="card-title">IC Markets</h5>
+							<p class="card-text">Especialistas en xxx yyy</p>
+							<p class="card-text">
+								<small class="text-body-secondary"
+									>Algo chiquito borramos?</small
+								>
+							</p>
+							<a href="#" class="btn btn-primary">Ingresar</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-      <!-- boton todos -->
-      <a href="#" class="btn btn-primary">TODOS</a>
-    </div>
+		<!-- 07.1 BOTONERA -->
 
-    <!-- 05 SEPARADOR BLANCO PARA SECCION DE EMPRESAS DE INVERSION -->
-    <div class="titulobrokers">
-      <h1>Inverti seguro ingresando a los mejores brokers</h1>
-      <p></p>
-      <!-- solo por el espacio -->
-      <h6>
-        Trabajamos con los mejores brokers del mundo para garantizar bla, bla,
-        bla y etcs.
-      </h6>
-      <h6>Otra linea mas de bla bla y etc</h6>
-    </div>
+		<div class="botoncontainerblanco">
+			<a href="#" class="btn btn-primary"> < Previo</a>
+			<a href="#" class="btn btn-primary">Siguiente ></a>
 
-    <!-- 06 LISTADO DE BROKERS -->
+			<!-- codigo off canva con seleccion -->
+			<button
+				class="btn btn-primary"
+				type="button"
+				data-bs-toggle="offcanvas"
+				data-bs-target="#offcanvasWithBothOptions"
+				aria-controls="offcanvasWithBothOptions"
+			>
+				Seleccion /top 10
+			</button>
 
-    <div class="containerbrokers">
-      <div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="./img/6.jpg" class="img-fluid rounded-start" alt="..." />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Etoro</h5>
-              <p class="card-text">Especialistas en xxx yyy</p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Algo chiquito borramos?</small
-                >
-              </p>
-              <a href="#" class="btn btn-primary">Ingresar</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="./img/7.jpg" class="img-fluid rounded-start" alt="..." />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">IC Markets</h5>
-              <p class="card-text">Especialistas en xxx yyy</p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Algo chiquito borramos?</small
-                >
-              </p>
-              <a href="#" class="btn btn-primary">Ingresar</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="./img/8.jpg" class="img-fluid rounded-start" alt="..." />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Exness group</h5>
-              <p class="card-text">Especialistas en xxx yyy</p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Algo chiquito borramos?</small
-                >
-              </p>
-              <a href="#" class="btn btn-primary">Ingresar</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- 07 SEGUNDO LISTADO DE BROKERS -->
-    <div class="containerbrokers">
-      <div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="./img/8.jpg" class="img-fluid rounded-start" alt="..." />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Exness group</h5>
-              <p class="card-text">Especialistas en xxx yyy</p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Algo chiquito borramos?</small
-                >
-              </p>
-              <a href="#" class="btn btn-primary">Ingresar</a>
-            </div>
-          </div>
-        </div>
-      </div>
+			<div
+				class="offcanvas offcanvas-start"
+				data-bs-scroll="true"
+				tabindex="-1"
+				id="offcanvasWithBothOptions"
+				aria-labelledby="offcanvasWithBothOptionsLabel"
+			>
+				<div class="offcanvas-header">
+					<h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+						En esta seccion encontraras el listado de Capacitaciones (o bien de
+						traders) que no podes dejar de conocer
+					</h5>
+					<button
+						type="button"
+						class="btn-close"
+						data-bs-dismiss="offcanvas"
+						aria-label="Close"
+					></button>
+				</div>
+				<div class="offcanvas-body">
+					<p>PERFIL DE INVERSOR MODERADO</p>
+					<p>PERFIL DE INVERSOR ARRIESGADO</p>
+					<p>CÓMO IDENTIFICAR TU PERFIL DE INVERSIÓN</p>
+					<p>PERFIL DE INVERSOR CONSERVADOR</p>
+					<p>METACOIN: WANDA NARA Y LAS CRIPTOS</p>
+					<p>BROKERS ECN: TRADING A TU FAVOR</p>
+					<p>GUÍA DE INDICADORES TÉCNICOS EN MT4</p>
+					<p>LA FED SUBE LAS TASAS</p>
+					<p>XXX</p>
+					<p>YYY</p>
+					<p>ZZZ</p>
+					<p>.</p>
+					<p>
+						SI LA LISTA ES LARGA APARECEN LA BARRA DE DESPLAZAMIENTO VERTICAL
+						ASI QUE ES NAVEGABLE
+					</p>
+				</div>
+			</div>
 
-      <div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="./img/6.jpg" class="img-fluid rounded-start" alt="..." />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Etoro</h5>
-              <p class="card-text">Especialistas en xxx yyy</p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Algo chiquito borramos?</small
-                >
-              </p>
-              <a href="#" class="btn btn-primary">Ingresar</a>
-            </div>
-          </div>
-        </div>
-      </div>
+			<!-- boton todos -->
+			<a href="#" class="btn btn-primary">TODOS</a>
+		</div>
 
-      <div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="./img/7.jpg" class="img-fluid rounded-start" alt="..." width="170%" height="70"/>
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">IC Markets</h5>
-              <p class="card-text">Especialistas en xxx yyy</p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Algo chiquito borramos?</small
-                >
-              </p>
-              <a href="#" class="btn btn-primary">Ingresar</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+		<!-- 08 SECCION A DEFINIR, PODRIAN SER REDES U OTRA COSA -->
+		<div class="bienvenida8">
+			<h1>Seccion a definir</h1>
+			<p></p>
+			<!-- solo por el espacio -->
+			<h2>
+				Podria ser contenido de slguna campana especial que se va actualizando,
+				la cual tiene boton de Call to Action, o bien un banner de promos, o
+				bien las redes sociales, etc etc etc. Lorem ipsum dolor, sit amet
+				consectetur adipisicing elit. Nesciunt dolorem incidunt laborum illum
+				tempore, enim fugiat quae suscipit tempora harum illo. Minima iusto
+				ducimus autem similique eos magnam debitis a.
+			</h2>
+			<!--       <img src="./img/3.jpg" alt="Imagen Corporativa" class="img1" /> -->
+		</div>
 
-    <!-- 07.1 BOTONERA -->
+		<!-- 08.1 PRIMERA TANDA TARJETAS SIMPLES SECCION A DEFINIR -->
+		<div class="monedas">
+			<div class="card" style="width: 18rem">
+				<img
+					src="./img/21.jpg"
+					class="card-img-top"
+					alt="..."
+					width="100%"
+					height="100%"
+				/>
+				<div class="card-body">
+					<p class="card-text">DOLAR</p>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem">
+				<img src="./img/21.jpg" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<p class="card-text">EURO</p>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem">
+				<img src="./img/21.jpg" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<p class="card-text">LIBRA</p>
+				</div>
+			</div>
+		</div>
+		<!-- 08.1 SEGUNDA TANDA TARJETAS SIMPLES SECCION A DEFINIR -->
+		<div class="monedas">
+			<div class="card" style="width: 18rem">
+				<img src="./img/21.jpg" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<p class="card-text">ORO</p>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem">
+				<img src="./img/21.jpg" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<p class="card-text">PETROLEO</p>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem">
+				<img src="./img/21.jpg" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<p class="card-text">DIAMANTES</p>
+				</div>
+			</div>
+		</div>
 
-    <div class="botoncontainerblanco">
-      <a href="#" class="btn btn-primary"> < Previo</a>
-      <a href="#" class="btn btn-primary">Siguiente ></a>
+		<!-- 09 ACERCA DE NOSOTROS CON ACORDEON -->
+		<div class="titulobrokers">
+			<h1>Acerca de Investment World / Nosotros</h1>
+			<p></p>
+			<!-- solo por el espacio -->
+			<h1>Todo lo que necesitas saber para confiar en nosotros</h1>
+			<p></p>
+			<!-- solo por el espacio -->
+			<h2>
+				Trabajamos con los mejores brokers del mundo para garantizar bla, bla,
+				bla y etcs.
+			</h2>
+			<h2>Otra linea mas de bla bla y etc</h2>
+		</div>
 
-      <!-- codigo off canva con seleccion -->
-      <button
-        class="btn btn-primary"
-        type="button"
-        data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasWithBothOptions"
-        aria-controls="offcanvasWithBothOptions"
-      >
-        Seleccion /top 10
-      </button>
+		<!-- DESDE ACA ACORDEON -->
+		<div class="acordeoncontainer">
+			<div class="accordion" id="accordionPanelsStayOpenExample">
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button
+							class="accordion-button"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#panelsStayOpen-collapseOne"
+							aria-expanded="true"
+							aria-controls="panelsStayOpen-collapseOne"
+						>
+							QUIENES FORMAN INVESTMENT WORLD
+						</button>
+					</h2>
+					<div
+						id="panelsStayOpen-collapseOne"
+						class="accordion-collapse collapse show"
+					>
+						<div class="accordion-body">
+							<strong>Somos expertos en finanzas.</strong> Pero expertos en
+							serio: ganamos dinero, perdimos dinero, probamos infinidad de
+							plataformas tipos de inversiones: invertimos en CFDs, Crypto,
+							Crowdfunding y todas las alternativas que se te puedan ocurrir. En
+							algunas nos fue bien, en otras no tan bien, en todas aprendimos.
+							Además, provenimos de firmas financieras de primer nivel. Por eso
+							no somos solamente traders, conocemos el mundo de las inversiones
+							financieras, y bien. Nuestro asesor más antiguo tiene más de
+							veinte primaveras en el mercado y este sitio ya tiene mas de 4
+							años brindando información confiable. Nuestra experiencia nos
+							acerca: Conocemos la emoción del trade y queremos compartirla
+							manteniendo la independencia y la confiabilidad.
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button
+							class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#panelsStayOpen-collapseTwo"
+							aria-expanded="false"
+							aria-controls="panelsStayOpen-collapseTwo"
+						>
+							QUE HACEMOS EN INVESTMENT WORLD
+						</button>
+					</h2>
+					<div
+						id="panelsStayOpen-collapseTwo"
+						class="accordion-collapse collapse"
+					>
+						<div class="accordion-body">
+							<strong>No traemos recetas mágicas.</strong> Simplemente nos
+							especializamos en inversiones online. Presentamos revisiones de
+							brokers, activos y comparamos alternativas para que puedas mover
+							tu dinero. Queremos que salgas de este sitio con más seguridad
+							para operar, más opciones para elegir la manera de invertir, y más
+							independencia en tus decisiones
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button
+							class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#panelsStayOpen-collapseThree"
+							aria-expanded="false"
+							aria-controls="panelsStayOpen-collapseThree"
+						>
+							PORQUE NECESITAS UN SITIO COMO INVESTMENT WORLD
+						</button>
+					</h2>
+					<div
+						id="panelsStayOpen-collapseThree"
+						class="accordion-collapse collapse"
+					>
+						<div class="accordion-body">
+							<strong
+								>Las finanzas pueden ser muy confusas sobre todo cuando recién
+								comienzas.</strong
+							>
+							Se habla de Forex, CFDs, Blockchain, pares de divisas, NFT. Aquí
+							te presentamos este mundo de manera clara y objetiva. No vamos a
+							decirte nada que creamos que sea perjudicial para ti. Todas las
+							soluciones presentadas son soluciones en las cuáles confiamos para
+							que tomes las riendas de tu vida (por lo menos, en la parte
+							financiera). La mejor forma de invertir y ganar dinero en mercados
+							financieros es estar bien informado.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-      <div
-        class="offcanvas offcanvas-start"
-        data-bs-scroll="true"
-        tabindex="-1"
-        id="offcanvasWithBothOptions"
-        aria-labelledby="offcanvasWithBothOptionsLabel"
-      >
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
-            En esta seccion encontraras el listado de Capacitaciones (o bien de
-            traders) que no podes dejar de conocer
-          </h5>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="offcanvas-body">
-          <p>PERFIL DE INVERSOR MODERADO</p>
-          <p>PERFIL DE INVERSOR ARRIESGADO</p>
-          <p>CÓMO IDENTIFICAR TU PERFIL DE INVERSIÓN</p>
-          <p>PERFIL DE INVERSOR CONSERVADOR</p>
-          <p>METACOIN: WANDA NARA Y LAS CRIPTOS</p>
-          <p>BROKERS ECN: TRADING A TU FAVOR</p>
-          <p>GUÍA DE INDICADORES TÉCNICOS EN MT4</p>
-          <p>LA FED SUBE LAS TASAS</p>
-          <p>XXX</p>
-          <p>YYY</p>
-          <p>ZZZ</p>
-          <p>.</p>
-          <p>
-            SI LA LISTA ES LARGA APARECEN LA BARRA DE DESPLAZAMIENTO VERTICAL
-            ASI QUE ES NAVEGABLE
-          </p>
-        </div>
-      </div>
+		<!-- ultimo titulo del acordeon: -->
 
-      <!-- boton todos -->
-      <a href="#" class="btn btn-primary">TODOS</a>
-    </div>
+		<div class="accordion acordeoncontainer" id="accordionExample">
+			<div class="accordion-item">
+				<h2 class="accordion-header">
+					<button
+						class="accordion-button"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#collapseOne"
+						aria-expanded="true"
+						aria-controls="collapseOne"
+					>
+						ADVERTENCIA DE RIESGO
+					</button>
+				</h2>
+				<div
+					id="collapseOne"
+					class="accordion-collapse collapse show"
+					data-bs-parent="#accordionExample"
+				>
+					<div class="accordion-body">
+						<strong>Advertencia de Riesgo</strong> puestos a disposición por
+						Alexon Capital Ltd o cualquiera de sus afiliadas se derivan de
+						varias fuentes propietarias y no propietarias consideradas
+						confiables por Alexon Capital Ltd y/o sus afiliadas. No son
+						necesariamente completos y no se puede garantizar su precisión.
+						Además, la información y el análisis contenidos en dichos materiales
+						se basan en el juicio profesional y pueden diferir de las
+						conclusiones o análisis proporcionados por otros profesionales
+						calificados a los que se les pide que realicen un análisis similar.
+						Además, tenga en cuenta que todo el material y la información
+						puestos a disposición por Alexon Capital Ltd o cualquiera de sus
+						afiliados están sujetos a modificación, cambio o complemento sin
+						previo aviso. Ni Alexon Capital Ltd ni ninguna de sus afiliadas
+						acepta ninguna responsabilidad, deber de cuidado u otra obligación
+						que surja para usted o cualquier otro tercero en relación con
+						cualquier material y/o información disponible por Alexon Capital Ltd
+						o cualquiera de sus afiliadas. Sin embargo, nada en este descargo de
+						responsabilidad excluye o restringe cualquier responsabilidad u
+						obligación que Alexon Capital Ltd o cualquiera de sus afiliadas
+						pueda tener bajo la ley o regulación aplicable, que no pueda ser
+						excluida. DIVULGACION DEL ANUNCIANTE: El sitio asinko.com es de uso
+						gratuito para todos, pero este gana una comisión de algunos de las
+						firmas que se exponen, aunque este no genera costos adicionales para
+						los usuarios finales (como usted). Sin embargo, tenga en cuenta que
+						todo el material y la información puestos a disposición por Alexon
+						Capital Ltd o cualquiera de sus afiliados se basan en nuestra
+						metodología profesional, que es imparcial, preparada de acuerdo con
+						el mejor interés de nuestros clientes y, lo que es más importante,
+						independiente de la remuneración que cobramos con algunos de
+						nuestros socios.
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <!-- 08 SECCION A DEFINIR, PODRIAN SER REDES U OTRA COSA -->
-    <div class="bienvenida8">
-      <h1>Seccion a definir</h1>
-      <p></p>
-      <!-- solo por el espacio -->
-      <h2>
-        Podria ser contenido de slguna campana especial que se va actualizando,
-        la cual tiene boton de Call to Action, o bien un banner de promos, o
-        bien las redes sociales, etc etc etc. Lorem ipsum dolor, sit amet
-        consectetur adipisicing elit. Nesciunt dolorem incidunt laborum illum
-        tempore, enim fugiat quae suscipit tempora harum illo. Minima iusto
-        ducimus autem similique eos magnam debitis a.
-      </h2>
-      <!--       <img src="./img/3.jpg" alt="Imagen Corporativa" class="img1" />
- -->
-    </div>
+		<!-- FOOTER -->
+		<footer>
+			<!-- LISTAS -->
+			<div class="footercontainer">
+				<ul>
+					<li class="listatitulo">Paises</li>
+					<li>Argentina</li>
+					<li>Chile</li>
+					<li>Ecuador</li>
+					<li>Peru</li>
+					<li>Finlandia</li>
+					<li>TODOS</li>
+				</ul>
+				<ul>
+					<li class="listatitulo">Paises</li>
+					<li>Argentina</li>
+					<li>Chile</li>
+					<li>Ecuador</li>
+					<li>Peru</li>
+					<li>Finlandia</li>
+					<li>TODOS</li>
+				</ul>
+				<ul>
+					<li class="listatitulo">Paises</li>
+					<li>Argentina</li>
+					<li>Chile</li>
+					<li>Ecuador</li>
+					<li>Peru</li>
+					<li>Finlandia</li>
+					<li>TODOS</li>
+				</ul>
+			</div>
 
-    <!-- 08.1 PRIMERA TANDA TARJETAS SIMPLES SECCION A DEFINIR -->
-    <div class="monedas">
-      <div class="card" style="width: 18rem">
-        <img
-          src="./img/21.jpg"
-          class="card-img-top"
-          alt="..."
-          width="100%"
-          height="100%"
-        />
-        <div class="card-body">
-          <p class="card-text">DOLAR</p>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img src="./img/21.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <p class="card-text">EURO</p>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img src="./img/21.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <p class="card-text">LIBRA</p>
-        </div>
-      </div>
-    </div>
-    <!-- 08.1 SEGUNDA TANDA TARJETAS SIMPLES SECCION A DEFINIR -->
-    <div class="monedas">
-      <div class="card" style="width: 18rem">
-        <img src="./img/21.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <p class="card-text">ORO</p>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img src="./img/21.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <p class="card-text">PETROLEO</p>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img src="./img/21.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <p class="card-text">DIAMANTES</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- 09 ACERCA DE NOSOTROS CON ACORDEON -->
-    <div class="titulobrokers">
-      <h1>Acerca de Investment World / Nosotros</h1>
-      <p></p>
-      <!-- solo por el espacio -->
-      <h1>Todo lo que necesitas saber para confiar en nosotros</h1>
-      <p></p>
-      <!-- solo por el espacio -->
-      <h2>
-        Trabajamos con los mejores brokers del mundo para garantizar bla, bla,
-        bla y etcs.
-      </h2>
-      <h2>Otra linea mas de bla bla y etc</h2>
-    </div>
-
-    <!-- DESDE ACA ACORDEON -->
-    <div class="acordeoncontainer">
-      <div class="accordion" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseOne"
-              aria-expanded="true"
-              aria-controls="panelsStayOpen-collapseOne"
-            >
-              QUIENES FORMAN INVESTMENT WORLD
-            </button>
-          </h2>
-          <div
-            id="panelsStayOpen-collapseOne"
-            class="accordion-collapse collapse show"
-          >
-            <div class="accordion-body">
-              <strong>Somos expertos en finanzas.</strong> Pero expertos en
-              serio: ganamos dinero, perdimos dinero, probamos infinidad de
-              plataformas tipos de inversiones: invertimos en CFDs, Crypto,
-              Crowdfunding y todas las alternativas que se te puedan ocurrir. En
-              algunas nos fue bien, en otras no tan bien, en todas aprendimos.
-              Además, provenimos de firmas financieras de primer nivel. Por eso
-              no somos solamente traders, conocemos el mundo de las inversiones
-              financieras, y bien. Nuestro asesor más antiguo tiene más de
-              veinte primaveras en el mercado y este sitio ya tiene mas de 4
-              años brindando información confiable. Nuestra experiencia nos
-              acerca: Conocemos la emoción del trade y queremos compartirla
-              manteniendo la independencia y la confiabilidad.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseTwo"
-              aria-expanded="false"
-              aria-controls="panelsStayOpen-collapseTwo"
-            >
-              QUE HACEMOS EN INVESTMENT WORLD
-            </button>
-          </h2>
-          <div
-            id="panelsStayOpen-collapseTwo"
-            class="accordion-collapse collapse"
-          >
-            <div class="accordion-body">
-              <strong>No traemos recetas mágicas.</strong> Simplemente nos
-              especializamos en inversiones online. Presentamos revisiones de
-              brokers, activos y comparamos alternativas para que puedas mover
-              tu dinero. Queremos que salgas de este sitio con más seguridad
-              para operar, más opciones para elegir la manera de invertir, y más
-              independencia en tus decisiones
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseThree"
-              aria-expanded="false"
-              aria-controls="panelsStayOpen-collapseThree"
-            >
-              PORQUE NECESITAS UN SITIO COMO INVESTMENT WORLD
-            </button>
-          </h2>
-          <div
-            id="panelsStayOpen-collapseThree"
-            class="accordion-collapse collapse"
-          >
-            <div class="accordion-body">
-              <strong
-                >Las finanzas pueden ser muy confusas sobre todo cuando recién
-                comienzas.</strong
-              >
-              Se habla de Forex, CFDs, Blockchain, pares de divisas, NFT. Aquí
-              te presentamos este mundo de manera clara y objetiva. No vamos a
-              decirte nada que creamos que sea perjudicial para ti. Todas las
-              soluciones presentadas son soluciones en las cuáles confiamos para
-              que tomes las riendas de tu vida (por lo menos, en la parte
-              financiera). La mejor forma de invertir y ganar dinero en mercados
-              financieros es estar bien informado.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-<!-- ultimo titulo del acordeon: -->
-
-    <div class="accordion acordeoncontainer" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            ADVERTENCIA DE RIESGO
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>Advertencia de Riesgo</strong>               puestos a disposición por Alexon Capital Ltd o cualquiera de sus
-            afiliadas se derivan de varias fuentes propietarias y no
-            propietarias consideradas confiables por Alexon Capital Ltd y/o
-            sus afiliadas. No son necesariamente completos y no se puede
-            garantizar su precisión. Además, la información y el análisis
-            contenidos en dichos materiales se basan en el juicio profesional
-            y pueden diferir de las conclusiones o análisis proporcionados por
-            otros profesionales calificados a los que se les pide que realicen
-            un análisis similar. Además, tenga en cuenta que todo el material
-            y la información puestos a disposición por Alexon Capital Ltd o
-            cualquiera de sus afiliados están sujetos a modificación, cambio o
-            complemento sin previo aviso. Ni Alexon Capital Ltd ni ninguna de
-            sus afiliadas acepta ninguna responsabilidad, deber de cuidado u
-            otra obligación que surja para usted o cualquier otro tercero en
-            relación con cualquier material y/o información disponible por
-            Alexon Capital Ltd o cualquiera de sus afiliadas. Sin embargo,
-            nada en este descargo de responsabilidad excluye o restringe
-            cualquier responsabilidad u obligación que Alexon Capital Ltd o
-            cualquiera de sus afiliadas pueda tener bajo la ley o regulación
-            aplicable, que no pueda ser excluida. DIVULGACION DEL ANUNCIANTE:
-            El sitio asinko.com es de uso gratuito para todos, pero este gana
-            una comisión de algunos de las firmas que se exponen, aunque este
-            no genera costos adicionales para los usuarios finales (como
-            usted). Sin embargo, tenga en cuenta que todo el material y la
-            información puestos a disposición por Alexon Capital Ltd o
-            cualquiera de sus afiliados se basan en nuestra metodología
-            profesional, que es imparcial, preparada de acuerdo con el mejor
-            interés de nuestros clientes y, lo que es más importante,
-            independiente de la remuneración que cobramos con algunos de
-            nuestros socios.
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- SCRIPT DE BOOTSTRAP -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-
-  <!-- FOOTER -->
-  <footer>
-    <!-- LISTAS -->
-    <div class="footercontainer">
-      <ul>
-        <li class="listatitulo">Paises</li>
-        <li>Argentina</li>
-        <li>Chile</li>
-        <li>Ecuador</li>
-        <li>Peru</li>
-        <li>Finlandia</li>
-        <li>TODOS</li>
-      </ul>
-      <ul>
-        <li class="listatitulo">Paises</li>
-        <li>Argentina</li>
-        <li>Chile</li>
-        <li>Ecuador</li>
-        <li>Peru</li>
-        <li>Finlandia</li>
-        <li>TODOS</li>
-      </ul>
-      <ul>
-        <li class="listatitulo">Paises</li>
-        <li>Argentina</li>
-        <li>Chile</li>
-        <li>Ecuador</li>
-        <li>Peru</li>
-        <li>Finlandia</li>
-        <li>TODOS</li>
-      </ul>
-    </div>
-
-    <!-- DERECHOS -->
-    <p class="derechos">© 2022 Todos los derechos reservados</p>
-  </footer>
+			<!-- DERECHOS -->
+			<p class="derechos">© 2022 Todos los derechos reservados</p>
+		</footer>
+	</body>
 </html>
